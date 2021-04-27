@@ -1,0 +1,95 @@
+body{
+
+}
+
+.container{
+ width:80%;
+ margin:auto;
+	overflow:hidden;		
+}
+
+/*Header*/
+
+header{
+	background:#ffffff;
+	color:#7c3302;
+	padding-top:10px;
+	min-height:60px;
+	border-bottom:#7a3b11 2px solid;
+}
+
+header img{
+	width:200px;
+	padding:9px;
+}
+
+header a{
+	color:#9b6b4a;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:18px;
+	font-family: Arial ;
+
+    }
+
+header li{
+        float:left;
+        display:inline;
+        padding: 0px 20px 0 50px;
+   }
+
+header nav{
+	float:right;
+    padding-right:100px;
+    padding-top:5px;     
+}
+   header .current a{
+   	color:#9b6b4a;
+   	
+   }
+
+   header a:hover{
+   	color:#823a0a;
+   	font-weight:bold;
+
+   }
+
+#showcase{
+  margin-top:0px;
+  min-height:300px;
+ background:url(./img/bookshelves.jpg) ;
+    text-align:center;
+    
+    
+    border-bottom:#7a3b11 2px solid;
+}
+
+#showcase h1{
+  padding-top:50px;
+  font-size: 55px;
+  font-family: Trebuchet MS;
+  color:#f2f2f2;
+  text-decoration-line: none;
+}
+
+#showcase p{
+  font-size:30px;
+  font-family: Trebuchet MS;
+  color:#f2f2f2;
+  text-decoration-line: none;
+}
+
+.button_1{
+  
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  padding:20px 24px;
+  background-color: #f21f1f;
+  color: #ecf0f1;
+}
+
+.button_1:hover, .button_1:focus{
+  background-color:#db5353;
+}

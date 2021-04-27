@@ -1,0 +1,318 @@
+body{
+
+}
+
+.container{
+ width:80%;
+ margin:auto;
+  overflow:hidden;    
+}
+
+/*Header*/
+
+header{
+  background:#ffffff;
+  color:#7c3302;
+  padding-top:10px;
+  min-height:60px;
+  border-bottom:#7a3b11 2px solid;
+}
+
+header img{
+  width:200px;
+  padding:9px;
+}
+
+header a{
+  color:#9b6b4a;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:18px;
+  font-family: Arial ;
+
+    }
+
+header li{
+        float:left;
+        display:inline;
+        padding: 0px 20px 0 50px;
+   }
+
+header nav{
+  float:right;
+    padding-right:100px;
+    padding-top:5px;     
+}
+   header .current a{
+    color:#9b6b4a;
+    
+   }
+
+   header a:hover{
+    color:#823a0a;
+    font-weight:bold;
+
+   }
+
+
+header form{
+  float: right;
+  padding-top:15px;
+  padding-right:30px;
+  }
+  
+
+  header input[type='email']{
+    padding:0px;
+    height:25px;
+    width:250px;
+    
+   }
+
+header input[type='password']{
+    
+  padding:0px;
+    height:25px;
+    width:250px;
+    
+   }
+
+
+   .button_1{
+  height:30px;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+    
+}
+
+/* Showcase */
+#showcase{
+  margin-top:0px;
+  min-height:330px;
+  background:url(../img/bookshelves.jpg) ;
+    text-align:center;
+    font-family: Arial; 
+    color:#f2f2f2;
+    border-bottom:#7a3b11 2px solid;
+}
+
+#showcase h1{
+  margin-top:100px;
+    font-size:55px;
+  
+}
+
+#showcase p{
+  text-align:center;
+  font-size:30px;
+}
+
+#showcase1 {
+  
+  margin-top:0px;
+  min-height:330px;
+  background:url(../img/bookshelves.jpg) ;
+    text-align:center;
+     font-size: 45px;
+  font-family: Trebuchet MS;
+    color:#f2f2f2;
+    border-bottom:#7a3b11 2px solid;
+}
+
+#showcase1 h1 a{
+
+  padding-top:100px;
+  font-size: 55px;
+  font-family: Arial;
+  color:#f2f2f2;
+  text-decoration-line: none;
+}
+
+#showcase1 .searchButton{
+  font-family : Trebuchet MS;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #9b6b4a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius:12px;
+
+}
+
+#showcase1 .button_rss{
+  font-family : Trebuchet MS;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #873a23;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius:12px;     
+
+}
+
+
+
+
+
+
+
+/*Sign up part*/
+#signup{
+    margin-top:0px;
+  min-height:150px;
+  
+
+   
+}
+
+
+/*josefin sans
+  league gothic
+  Amaranth
+  Signika
+  */
+
+
+
+#signup text{
+     
+  margin-top:20px;
+
+  font-family: Arial;
+    text-decoration:none;
+  
+    color:#823a0a;
+    font-size:20px;
+  float:right;
+    
+
+}
+
+#signup .detail{
+     margin-top:12px;
+    text-align:left;
+  font-family: Arial;
+    text-decoration:none;
+  float:left;
+  padding-left:30px;
+    color:#823a0a;
+    font-size:20px;
+}
+
+#signup .smalldetail{
+  margin-top:30px;
+font-family: Arial;
+    text-decoration:none;
+  text-align:right;
+  float:left;
+  padding-right:100px;
+  padding-left:15px;
+    color:#823a0a;
+    font-size:18px;
+  
+}
+
+
+#signup form{
+  
+  
+  padding-top:0px;
+  float:right;
+    padding-right:50px;
+    
+  
+  }
+
+  
+
+#signup input[type='Name']{
+    padding:5px;
+    height:25px;
+    width:250px;
+
+    
+    
+   }
+  #signup input[type='email']{
+    padding:5px;
+    height:25px;
+    width:250px;
+    
+   }
+
+#signup input[type='password']{
+    padding:5px;
+    height:25px;
+    width:250px;
+    
+   }
+
+
+   .button_2{
+  height:30px;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  
+    
+}
+
+.carTitle{
+  font-family: Trebuchet MS;
+    text-decoration:none;
+    color:#823a0a;
+    font-size:30px;
+}
+
+
+/*Search navigation bar */
+#mySearch {
+  
+  margin-top:3px;
+  width: 20.2%;
+  font-size: 18px;
+  padding: 11px;
+  border:#7a3b11  2px solid;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  border:#7a3b11 2px solid ;
+  width: 21.7%;
+  list-style-type: none; 
+  padding: 0;
+  margin: 2 px;
+  font-family: Arial;
+  font-color:#823a0a;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  background-color: #f6f6f6;
+  font-family: Arial;
+  font-color:#823a0a;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
