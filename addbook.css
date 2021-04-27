@@ -1,0 +1,68 @@
+#myForm h3{
+	margin-top:30px;
+	margin-left:40%;
+	font-family: Trebuchet MS;
+	font-size:40px;
+	color:#7c604f;
+}
+
+#myForm form{
+	margin-top:10px;
+	margin-left:40%;
+	padding-top:0px;
+	float:left;
+    padding-right:50px;
+    
+}
+
+#myForm input[type='name']{
+   	padding:5px;
+   	height:25px;
+   	width:250px;
+}
+
+#myForm input[type='date']{
+	padding:5px;
+   	height:25px;
+   	width:250px;
+}
+
+ #myForm input[type='number']{
+    padding:5px;
+    height:25px;
+    width:250px;
+    
+   }
+
+   #myForm input[type='text']{
+   	padding:5px;
+    height:25px;
+    width:250px;
+   }
+   #myForm input[type='file']{
+    padding:5px;
+    height:25px;
+    width:250px;
+    
+   }
+
+#myForm button{
+border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  padding:12px 24px;
+  background-color: #2ecc71;
+  color: #ecf0f1;
+}
+#myForm button:hover, button_1:focus {
+  background-color: #27ae60;
+}
+
+.box{
+	border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 400px;
+    height: 500px; 
+}

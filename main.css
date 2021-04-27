@@ -1,0 +1,113 @@
+/*Main page */
+body{
+
+}
+
+.container{
+ width:80%;
+ margin:auto;
+	overflow:hidden;		
+}
+
+/*Header*/
+
+header{
+	background:#ffffff;
+	color:#7c3302;
+	padding-top:10px;
+	min-height:60px;
+	border-bottom:#7a3b11 2px solid;
+}
+
+header img{
+	width:200px;
+	padding:9px;
+}
+
+header a{
+	color:#9b6b4a;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:18px;
+	font-family: Arial ;
+
+    }
+
+header li{
+        float:left;
+        display:inline;
+        padding: 0px 20px 0 50px;
+   }
+
+header nav{
+	float:right;
+    padding-right:100px;
+    padding-top:5px;     
+}
+   header .current a{
+   	color:#9b6b4a;
+   	
+   }
+
+   header a:hover{
+   	color:#823a0a;
+   	font-weight:bold;
+
+   }
+
+
+
+
+/* Showcase for Home(main.php)*/
+
+#showcase1 {
+  
+  margin-top:0px;
+  min-height:300px;
+ background:url(./img/bookshelves.jpg) ;
+    text-align:center;
+    
+    
+    border-bottom:#7a3b11 2px solid;
+}
+
+#showcase1 h1 {
+
+  
+  font-size: 55px;
+  font-family: Trebuchet MS;
+  color:#f2f2f2;
+  text-decoration-line: none;
+  margin-bottom:10px;
+  
+}
+
+#showcase1 .searchButton{
+
+  font-family : Trebuchet MS;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #9b6b4a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius:12px;
+
+}
+
+
+.carTitle{
+  font-family: Arial;
+    text-decoration:none;
+    color:#823a0a;
+    font-size:30px;
+}
+
+
+

@@ -1,0 +1,87 @@
+/*css for the carousel*/
+
+
+
+#body2 {
+margin: 10px 100px;
+  
+}
+
+.home-product-new-hldr1 {
+  position: relative;
+  width:1140px;
+  color:black;
+
+}  
+  
+.home-product-new1 {
+  width:1140px;
+  overflow:hidden;
+}
+
+.home-grid.products-grid.products-grid--max-41 {
+  transition:-ms-transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s, transform 0.5s ease 0s;
+  position:relative;
+  white-space:nowrap;
+}
+
+.item-container1 {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+    float:center;
+	width:274px;
+}  
+
+.slider-btn-hldr-left1 {
+	left: -32px;
+}
+
+.slider-btn-hldr-right1 {
+	right: -25px;
+}
+
+.slider-btn-hldr1 {
+    bottom: 0;
+    display: block;
+    padding: 0;
+	width: 24px;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+}
+
+.slider-btn1 {
+	background-color: transparent;
+    border: 0 none;
+    color: buttontext;
+    cursor: pointer;
+    display: block;
+}
+
+.item1{
+display: inline-block;
+}
+
+#left-btn1 {
+	    display: none;
+	    margin-top:30px;
+}
+#right-btn1{
+	display:block;
+	margin-top:30px;
+}
+
+.slider-btn1 svg{
+  width: 24px;
+  height: 24px;
+}
+  
+.products-grid .item1 {
+	margin-left: 0px;
+  margin-right:0px;
+	margin-top:0px;
+	background: black; 
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	float:left;
+}
